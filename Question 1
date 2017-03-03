@@ -1,0 +1,28 @@
+Question 1) 
+Given five positive integers, You have to use exactly four of the five integers and calculate a value by adding two numbers together and subtracting two numbers from it.
+
+Find the Largest value that can be calculated as mentioned above.
+
+Input Format
+
+A single line of five space-separated integers.
+
+Constraints
+
+Each integer is in the inclusive range [1,10 9 ].
+
+Output Format
+
+Print a single long integer denoting the largest value that can be calculated as mentioned above (The output can be greater than a 32 bit integer.)
+
+Sample Input 0
+
+1 5 3 2 4
+Sample Output 0
+
+6
+Explanation 0
+
+We add 5 and 4 together and substrate 1 and 2 from it. Then we have 6 that is the maximum value that can be calculated by adding two integers together and subtracting another two integers from it.
+
+5 + 4 - 1 -2 = 6
