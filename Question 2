@@ -1,0 +1,42 @@
+Q 2) 
+To enter the code breaker competition you will have to decrypt a set of words we have already encrypted using the following encryption algorithm.
+
+When a plaintext and a key N is provided, each letter of the plaintext will be incremented sequentially till N letters and the incrementing sequence will repeat again.
+
+For an example consider the word:DOTITUDE and the key (N)=3
+Then the encrypted text would be:EQWJVXEG
+
+As the key given is 3, letter D is incremented by 1, O is incremented by 2, T is incremented by 3 and again I is incremented by 1 , T is incremented by 2 and so on.
+
+Your task is to decrypt the encrypted words we will be providing.
+
+Input Format
+
+First line will consist the encrypted word
+The second line will be the Key (N)
+
+Constraints
+
+0 < N < 27
+Encrypted word only consist with uppercase and lowercase characters
+
+Output Format
+
+Decrypted word (Plaintext)
+
+Sample Input 0
+
+EQWJVXEG
+
+3
+Sample Output 0
+
+DOTITUDE
+Sample Input 1
+
+BDDFfhHJ
+
+2
+Sample Output 1
+
+ABCDefGH
